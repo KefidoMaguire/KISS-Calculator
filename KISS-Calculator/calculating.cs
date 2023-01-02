@@ -7,10 +7,20 @@ using System.Data;
 
 namespace KISS_Calculator
 {
-    //solution = new DataTable().Compute(value, null).ToString();
-    internal class calculating
+    
+    class calculating
     {
-       
+        
+
+       public string cal(string result)
+       {
+            Calculator calculatorForm = new Calculator();
+
+            string solution = new DataTable().Compute(result, null).ToString();
+
+
+            return solution;
+       }
 
 
     }
