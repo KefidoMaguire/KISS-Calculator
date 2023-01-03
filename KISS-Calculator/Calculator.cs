@@ -50,7 +50,7 @@ namespace KISS_Calculator
         }
 
         /// <summary>
-        /// One button method for bearly all buttons - code is cleaner and easier to understand
+        /// One button method for nearly all buttons - code is cleaner and easier to understand
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
